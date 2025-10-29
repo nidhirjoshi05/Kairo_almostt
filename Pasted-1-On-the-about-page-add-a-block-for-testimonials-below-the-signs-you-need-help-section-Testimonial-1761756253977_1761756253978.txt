@@ -1,0 +1,384 @@
+1.On the about page, add a block for testimonials below the signs you need help section.
+Testimonials:-
+“Kairo didn’t just help me manage my emotions — it helped me understand them.”
+I used to think I was just “bad at handling stress.” Kairo’s daily reflections and guided EQ exercises helped me notice my emotional patterns. Now, I don’t run from tough days — I learn from them.
+— Meera Sharma, MBA Student, 22
+“The Vent Room feels like talking to a friend who really listens.”
+When I feel anxious or overwhelmed, I open Kairo. The AI Consoling Agent responds with calm and compassion — never robotic, always kind. It’s become my go-to emotional anchor.
+— Rohit Patel, NGO Volunteer, 28
+“Kairo made my team emotionally stronger — and surprisingly, more productive.”
+As a manager, I’ve tried many wellness tools, but none built trust like Kairo. Our team uses the mood tracker and Healing Circles every week — conflicts dropped, collaboration rose.
+— Arjun Mehta, Project Manager, 35
+“It’s like having emotional analytics for my students.”
+I’m a school counselor, and Kairo helps me monitor emotional growth in ways I never could before. The dashboards and EQ tests give clarity that conversations alone can’t.
+— Kavita Rao, School Counselor, 42
+“I never thought technology could feel this human.”
+Kairo’s AI isn’t just smart — it’s emotionally aware. The tone changes with my mood, and the insights feel personal, not generic. It’s like therapy, reflection, and motivation rolled into one.
+— Sana Ahmed, Graduate Student Abroad, 25
+“Kairo taught me that growth doesn’t mean perfection — it means awareness.”
+It’s not an app you just ‘use’; it’s a space that grows with you. My EQ journey feels real, measurable, and deeply personal.
+— Corporate Wellness Program Member, 29
+Also add/change the data on the landing page to the data given below, maybe add images or so to make it look better
+About Kairo
+About Kairo – Your Emotional Growth Companion
+Kairo comes from Kairos — the ancient Greek word for “the right moment.”
+It’s that pause between feeling and understanding, where growth truly happens.
+Kairo exists to help people find that pause — to reflect, heal, and transform.
+In a world that moves too fast for emotions, Kairo offers a space to slow down.
+We combine Artificial Intelligence, Emotional Intelligence, and Human Connection to help individuals understand their emotions, strengthen resilience, and build meaningful relationships.
+Our platform isn’t just another therapy app — it’s an emotional ecosystem.
+From AI-driven reflection and mood tracking to real mentors and Healing Circles, Kairo empowers you to grow emotionally, one insight at a time.
+Because emotional well-being isn’t a luxury — it’s a lifelong skill.
+Our Vision
+To become the world’s leading Emotional Intelligence Platform, empowering individuals, organizations, and communities to cultivate empathy, self-awareness, and mental resilience — creating a future where technology drives emotional well-being and personal transformation.
+Our Mission
+To enhance global emotional well-being by integrating artificial intelligence, emotional intelligence and human connection.
+Kairo aims to provide a personalized, data-driven, and compassionate platform that helps individuals build self-awareness, emotional resilience, and meaningful relationships through continuous emotional growth.
+What Makes Kairo Different
+A mood-adaptive interface that feels with you, not at you.
+A compassionate AI Consoling Agent that truly listens.
+Real mentors and peer communities that offer genuine support.
+Gamified EQ growth — measure your emotional progress like fitness goals.
+A safety net that blends AI, therapy, and crisis care.
+Kairo isn’t about fixing emotions. It’s about understanding them — and finding growth in every feeling.
+2.For the freemium model, in the book first free session, let the user input date and time and then accordingly show a booking confirmation message.
+3. In the premium model, for the mood entries section let it be in the graph form as the image given above.
+4. In the footer part in the whole website, change the details as given below, after redirection.
+Footer:
+Privacy Policy
+Last updated: [insert date]
+At Kairo, we respect your privacy and are committed to protecting your personal and emotional well-being data.
+This Privacy Policy explains how we collect, use, and safeguard your information when you use our app, website, or services.
+1. Information We Collect
+We collect the following:
+Personal details (name, email, phone number) for account creation.
+Emotional insights from your journal entries, AI interactions, or EQ assessments — always anonymized and encrypted.
+Device and app usage data (e.g., session duration, feature usage) to improve user experience.
+2. How We Use Your Data
+To personalize your emotional growth journey and provide tailored recommendations.
+To improve app performance and features.
+To send updates, insights, or reminders related to your emotional progress.
+3. Data Protection
+We use industry-standard encryption, secure servers, and regular audits to ensure your information remains safe and private.
+4. Your Rights
+You can request to access, update, or delete your data anytime by contacting privacy@kairo.app.
+5. Changes to Policy
+We may update this policy periodically. Updates will always be posted here with a revised “Last Updated” date.
+ Terms of Service
+Effective date: [insert date]
+Welcome to Kairo. By accessing or using our app, you agree to the following terms.
+1. Use of Service
+Kairo is a platform for emotional growth, self-awareness, and well-being. It is not a substitute for medical or psychological treatment.
+2. Eligibility
+Users must be at least 13 years old. For minors, parental consent is required.
+3. User Conduct
+Do not misuse or exploit Kairo’s services. You agree not to upload harmful, offensive, or false content.
+4. Subscriptions and Payments
+Premium features are billed monthly or annually. All payments are secure and non-refundable once activated.
+5. Limitation of Liability
+Kairo provides guidance and support tools, not clinical diagnoses. We are not liable for any decisions made based on app content.
+6. Termination
+We may suspend or terminate accounts that violate these terms or compromise user safety.
+Help Center
+Need assistance? We’re here to help.
+You can explore guides, FAQs, and emotional growth tips in our in-app Help Center.
+For technical issues or account help, reach us at support@kairo.app.
+Common topics:
+How to reset your password
+Understanding your EQ score
+Managing privacy settings
+Contacting your mentor or counselor
+Contact Support
+We’d love to hear from you.
+Email us at hello@kairo.app for general queries or support@kairo.app for technical help.
+Response time: within 24–48 hours, Monday to Saturday.
+You can also reach us through the in-app “Contact Support” option for faster help.
+Feedback
+Your voice helps Kairo evolve.
+Share your thoughts, suggestions, or stories at feedback@kairo.app or via the in-app feedback form.
+Every message is read by our team — because your emotional growth journey helps shape ours too.
+6. For the various web pages, add proper descriptions for each web page for the users better understanding.
+7. For the Healing circles web page, after giving a description block also add a guidelines for Healing circles block
+8. After clicking on get started on the landing page, it should take the user to a web page/ multi web pages, that shows the users a proper description of the services available in the freemium and premium model. Then once they are done checking this out, they click on next and go to the Dual option page where they select Get pro plan or Free plan.
+9. In the premium model, remove no if streaks block from the home page.
+10. In the premium model, after I get matched with the therapist test, give me a hardcoded output of therapists for now.
+1. Change the logo to the image i uploaded, and make the colour scheme of the website a little darker. 
+2. Change the button colour on the landing page, under the landing page, give an about us part to talk about our organisation( mission, vision, understanding mental health, Signs you need help)
+3. The Dual option page, where i select between get started with pro or free, that page should have animation of the two sides moving when i hover over them
+4. Make the spacing between the Back button and the image proper on the Dual option page
+5. Add a login page after user click on the get started button, with questions like, Name, Email and password thats it. also give option for Sign up
+6. on the home page in freemium model, give a short summary boxes like Days Active, Number of journal entries/redirection to journal web page, Make the eq test longer and where it gives accurate results, once the test is given once they shouldnt be allowed to give it again, make it 15 questions long.
+7. In the Journal web page on the freemium model, add a block below journal entry, for the prevoius entries.
+8. From the Vent Room in the Freemium model, remove the 5 messages per day tag
+9. for the Circles webpage, give more circle option, but let them join only one in a month, increase the number of participants shown in the groups.
+10. In the Therapists web page on the freemium model, change the name from Therapists to Paid Consultations, show an option to take first free session with a therapist, and show a few small features of the premium model in this web page, give a tab that says Professional Therapists
+Connect with licensed mental health professionals. Choose your own therapist and schedule sessions at your convenience, for the therapist cards add name, speciality, rating, number of reviews as well, a small sentence for the therapist about, year of experience, also move this web page to be the last web page on the freemium model.
+11.  Bring the Crisis web page before the paid consultations, also in the crisis web page a description about what crisis section is for, and also give a option to find the nearest rehab centers, hospitals, and NGOs
+12. Add a profile option instead of log out, where it gives options of Profile, Settings and Log out, in the profile sections it should show the users personal dashboard with updates from Circle joined, personal updates and information. 
+13. Now in the premium model, add track mood web page after the journal web page, it should have an option to log your mood with options like great good okay low bad, and let user add a note (Whats contributing to this mood), also give a recent mood histories entries block
+14. In the Journal web page in the Premium Model, give writing prompts to the user which will help them journal their thoughts much better, also add sections showing previous entries..
+15. In the Therapists web page on the premium model, show an option to get matched with a therapist where the user has to file out a questionnaire and accordingly therapists will be shown, in the therapist cards show the therapist availability too, allow user to book a session where they input the date, time, etc
+16. In the premium model for the Circle web page, give an option to user where they can join multiple circles.
+17. In the premium model, instead of the log out option give profile option, where it has profile , settings and log out. In the profile section, create a personal dashboard, where it gives reminder, notifications for circles and therapy sessions, a short summary of mood entries and journaling and prompt user to update it,  add wellness tips for the user too. 
+18. Make the crisis support page in the premium model just like the freemium model, also add a part which notifies the therapist about any crisis situation.
+19. In the Home Page add a sections giving reminders and notifications about the sessions and circles, like give countdown 2 days left for session, circle session today, upcoming sessions, etc.
+20. When i click on reminders, it should open in calendar format.
+21. In the entire website add the footer sections with necessary details, redirection links, social media, get support(website support etc). 
+
+
+
+Testimonials on home page
+Change logo
+
+
+
+
+The calendar option included in the notification section should have a back option, on freemium and premium models.
+When we click on the Settings option in the Profile seciton, it isnt redirecting anywhere please fix that and add settings section
+The login page should appear after I click on whether I want to go forward with the pro plan or the free plan.
+In the freemium model, in the reminders and notification part, it should show notifications only for circles, nothing else.
+In the premium model when I go to book the session, make sure that it also shows the availability of the therapist on the calendar
+On the landing page and login page change the logo to the image uploaded
+
+Eq test- result in the form of graph for premium
+	New webpage for test- abt the test- select test- faqs
+
+
+I want to add the PANAS test in the freemium Model, and give an option to take the EQ test but for result show that the User has to upgrade to pro, create a new web page where you add this Panas and EQ test option, along with a proper description about what these tests exactly are in a nice aesthetic way.
+For the Premium Model do that same thing as freemium Model for the tests web page and lets the user see detailed results of the EQ test.
+
+
+
+
+nEW PROMPT-
+To integrate a single new webpage into our existing website. This page will host two psychological assessments: the PANAS Questionnaire and the Emotional Intelligence Scale (EIS-HPD). The page must include aesthetic descriptions of each test and implement a freemium model.
+Freemium Model Logic:
+All users (Freemium & Pro) can take both tests.
+PANAS Test: Results are free and shown to all users.
+EIS-HPD (EQ Test): Results are gated.
+Freemium users will see an "Upgrade to Pro" call-to-action instead of their results.
+Pro users will see their full, detailed, graphical results.
+1. Key Integration & Styling Requirements
+Styling & Branding: The new page must seamlessly match the existing website's visual identity. This includes using the existing CSS stylesheets, fonts, color palette, button styles, layout, and a mobile-responsive design.
+Header/Footer: The new page must use the website's existing global header and footer.
+Navigation: Please add the entry point for this new feature on in the navigation bar, and name it Assessments
+URL Structure: Please create the new page at the following URL: [your-website-url.com]/assessments (or suggest a more logical path for our existing site).
+2. New Page Layout (.../assessments)
+This single page should be designed in a clean, aesthetic way, with two distinct sections or "cards," one for each test. Each section will contain:
+A description of the test.
+The full questionnaire.
+Section 1: PANAS Questionnaire (Freemium)
+Aesthetic Description:
+Title: Check Your Current Mood: The PANAS Scale
+Text: How are you feeling, right now? The PANAS Questionnaire is a widely used 20-item scale that measures your current emotional state1. It provides a score for Positive Affect (the extent to which you feel enthusiastic, active, and alert) and Negative Affect (the extent to which you feel aversive states like distress, anger, or fear)22. Take this quick test to get an instant snapshot of your present-moment feelings3.
+Test Interface:
+Instructions: "Indicate to what extent you feel this way right now (at the present moment), using the scale below." 4
+Rating Scale: 5-point radio buttons: 1 - Very Slightly or Not at All, 2 - A Little, 3 - Moderately, 4 - Quite a Bit, 5 - Extremely 5.
+Test Items: The 20 PANAS items (Interested, Distressed, Excited, etc.)6.
+Section 2: Emotional Intelligence Scale (Premium)
+Aesthetic Description:
+Title: Discover Your Emotional Intelligence: The EIS-HPD Scale
+Text: Emotional Intelligence (EQ) is the ability to understand and manage your own emotions, and to recognize and influence the emotions of others. This 34-item assessment 7measures your overall Emotional Intelligence and breaks it down into 10 key factors, including Self-Awareness, Empathy, Self-Motivation, and Managing Relations8888. Understand your strengths and opportunities for growth.
+(Note: Results for this test are a Pro feature.)
+Test Interface:
+Instructions: "Here some statements are given and for every statement you have to express your views by making a tick on any one cell of the five alternatives." 9
+Rating Scale: 5-point radio buttons: Strongly Agree, Agree, Uncertain, Disagree, Strongly Disagree10.
+Test Items: The 34 EIS-HPD items (I can encourage others..., People tell me I am an inspiration..., etc.) 11.
+3. Submission & Conditional Results Logic
+Place a single "Submit & See Results" button at the bottom of the page.
+On submission, the page should process both tests and display the results dynamically on the same page(e.g., in accordions, modals, or new content blocks that appear), based on the user's plan.
+A. PANAS Results (Always Shown)
+This section should always appear for all users (Freemium and Pro).
+Display: Show the two scores clearly.
+Positive Affect Score: [User's PA Score] (out of 50)
+Negative Affect Score: [User's NA Score] (out of 50)
+Visuals: Include the graphical gauges/bars as specified in the Appendix.
+Interpretation: Include the interpretation text (see Appendix).
+B. EIS-HPD (EQ Test) Results (Conditional)
+This is the key logic. The backend must check the user's subscription status.
+IF User is on a "Free" / "Freemium" plan:
+DO NOT show the results.
+Instead, display an Upgrade Call-to-Action (CTA) block.
+Example Copy: "### You've completed the Emotional Intelligence test!
+To unlock your detailed results, including your overall EQ score, a 10-factor breakdown, and a personalized radar chart, please upgrade to our Pro plan."
+Include a prominent "Upgrade Now" button that links to our pricing/upgrade page.
+IF User is on a "Pro" / "Premium" plan:
+DO show the full, detailed results.
+Display: Show the "Overall Emotional Intelligence" score and interpretation (High/Normal/Low).
+Visuals: Include the "Overall Score" gauge, the Radar Chart for the 10 factors, and the detailed factor table (all specified in the Appendix).
+4. Appendix: Backend Scoring & Results Specifications
+(Use this for building the backend logic and the results display for Pro users)
+Test 1: PANAS Scoring & Results
+Positive Affect (PA) Score: Sum of items: 1, 3, 5, 9, 10, 12, 14, 16, 17, 1912.
+Negative Affect (NA) Score: Sum of items: 2, 4, 6, 7, 8, 11, 13, 15, 18, 2013.
+Results Visual:
+Two gauges/bars (one for PA, one for NA), styled to match our site.
+Show the user's score vs. the total (50).
+Mark the momentary mean score benchmarks: 29.7 for PA 14and 14.8 for NA15.
+Interpretation Text:
+"Your Positive Affect score ([User's PA Score]) measures... The average 'momentary' score is 29.7." 16
+"Your Negative Affect score ([User's NA Score]) measures... The average 'momentary' score is 14.8." 17
+Test 2: EIS-HPD Scoring & Results (For Pro Users)
+Value Mapping: Strongly Agree = 5, Agree = 4, Uncertain = 3, Disagree = 2, Strongly Disagree = 118.
+Total Score: Sum of all 34 items.
+Interpretation: High (85 and above), Normal (52-84), Low (51 and below)19.
+Factor Scores:
+A. Self-awareness: Sum of 6, 12, 18, 2920.
+B. Empathy: Sum of 9, 10, 15, 20, 2521.
+C. Self-motivation: Sum of 2, 4, 7, 8, 31, 3422.
+D. Emotional stability: Sum of 14, 19, 26, 2823.
+E. Managing relations: Sum of 1, 5, 11, 1724.
+F. Integrity: Sum of 16, 27, 3225.
+G. Self-development: Sum of 30, 3326.
+H. Value orientation: Sum of 21, 2227
+I. Commitment: Sum of 23, 2428.
+J. Altruistic behaviour: Sum of 3, 1329.
+Results Visuals (Pro Only):
+Overall Score Gauge: A segmented bar/gauge showing the user's Total Score on the Low (0-51) / Normal (52-84) / High (85+) scale30.
+Radar Chart: A 10-axis radar chart (styled to match our site) plotting "Your Score" for each factor (A-J) against the "High Level Benchmark" (the "High and above" value for each factor from Table 5)31.
+Detailed Factor Table: A table (styled like our site's tables) showing the user's score and interpretation (Low/Normal/High) for all 10 factors, based on the norms in Table 532.
+
+In the freemium and premium model, remove the EQ test option from the HOME page and instead add a small pop up on the home page which says go to test basically making the assessments part visible on the home page so the user takes the tests
+In the premium and freemium model in the assessments web page, change the layout so user doesnt have to give both the tests, they can pick and give both separately. 
+
+
+
+
+Questionnaire Flow
+Step 1: The Basics (Practical Needs)
+This section is for the non-negotiables.
+How would you like to attend sessions?
+[ ] In-person (near me)
+[ ] Virtual (video/phone)
+[ ] I'm open to either
+
+When are you available for sessions?
+(Select all that apply)
+[ ] Mornings
+[ ] Afternoons
+[ ] Evenings
+[ ] Flexible
+
+Step 2: What's on your mind? (Areas of Focus)
+This helps us understand what you'd like to work on.
+What brings you to therapy?
+(Select all that apply)
+[ ] Anxiety or panic attacks
+[ ] Depression or sadness
+[ ] Relationship issues
+[ ] Work / School stress
+[ ] Family conflicts
+[ ] Trauma or PTSD
+[ ] Grief or loss
+[ ] Addiction or substance use
+[ ] Identity (Gender, sexual, or cultural)
+[ ] Life transitions (e.g., new job, moving, baby)
+[ ] I'm just not feeling like myself
+[ ] I'm not sure, I just need to talk
+Have you been in therapy before?
+[ ] Yes, it was a helpful experience
+[ ] Yes, it was not a good experience
+[ ] No, this is my first time
+
+Step 3: Your Therapy Style (Your Vibe)
+This helps us match you with a therapist's approach.
+I would prefer a therapist who...
+[ ] Listens and guides me to explore my feelings and past.
+[ ] Teaches me concrete skills, strategies, and (sometimes) homework.
+[ ] A balance of both.
+I want to focus on...
+[ ] Solving my current problems and learning new coping skills.
+[ ] Understanding my past to see how it affects my present.
+[ ] I'm not sure, I'd like my therapist to help me decide.
+
+Step 4: Therapist Preferences (Your Match)
+This is about who you feel most comfortable with. It's 100% optional.
+Do you have a preference for your therapist's gender?
+[ ] I prefer a male therapist
+[ ] I prefer a female therapist
+[ ] I prefer a non-binary therapist
+[ ] No preference
+
+
+
+
+Project Brief: Integrate Therapist Matching Questionnaire
+Project Goal:
+To integrate a new multi-step "Therapist Matching" questionnaire into our existing website, after click on the start matching button in the Therapists webpage in the premium model. This form will act as the primary intake and filtering tool to help users find the most suitable therapists from our database.
+1. Key Integration & Styling Requirements
+Styling & Branding: The new questionnaire page must seamlessly match the existing website's visual identity. This includes using the existing CSS stylesheets, fonts, color palette, button styles, layout, and a mobile-responsive design.
+Header/Footer: The new page must use the website's existing global header and footer.
+Navigation & Location:
+Please create a new dedicated page after clicking on the Start matching button for this questionnaire 
+The primary Start Matching button/link on the Therapist section should now point to this new questionnaire page.
+
+2. Frontend: Questionnaire Page
+Please build a single-page questionnaire, breaking the questions into the following steps.
+Step 1: The Basics (Practical Needs)
+(This section is for the non-negotiables.)
+How would you like to attend sessions?
+[ ] In-person (near me)
+[ ] Virtual (video/phone)
+[ ] I'm open to either
+When are you available for sessions?
+(Select all that apply)
+[ ] Mornings
+[ ] Afternoons
+[ ] Evenings
+[ ] Flexible
+
+Step 2: What's on your mind? (Areas of Focus)
+(This helps us understand what you'd like to work on.)
+What brings you to therapy?
+(Select all that apply)
+[ ] Anxiety or panic attacks
+[ ] Depression or sadness
+[ ] Relationship issues
+[ ] Work / School stress
+[ ] Family conflicts
+[ ] Trauma or PTSD
+[ ] Grief or loss
+[ ] Addiction or substance use
+[ ] Identity (Gender, sexual, or cultural)
+[ ] Life transitions (e.g., new job, moving, baby)
+[ ] I'm just not feeling like myself
+[ ] I'm not sure, I just need to talk
+Have you been in therapy before?
+[ ] Yes, it was a helpful experience
+[ ] Yes, it was not a good experience
+[ ] No, this is my first time
+
+Step 3: Your Therapy Style (Your Vibe)
+(This helps us match you with a therapist's approach.)
+I would prefer a therapist who...
+[ ] Listens and guides me to explore my feelings and past.
+[ ] Teaches me concrete skills, strategies, and (sometimes) homework.
+[ ] A balance of both.
+I want to focus on...
+[ ] Solving my current problems and learning new coping skills.
+[ ] Understanding my past to see how it affects my present.
+[ ] I'm not sure, I'd like my therapist to help me decide.
+
+Step 4: Therapist Preferences (Your Match)
+(This is about who you feel most comfortable with. It's 100% optional.)
+Do you have a preference for your therapist's gender?
+[ ] I prefer a male therapist
+[ ] I prefer a female therapist
+[ ] No preference
+
+Submission Button
+A clear, single "Show My Matches" button at the end of the form.
+
+3. Backend & Functional Logic (Critical)
+This is the most important part: what happens when the user clicks "Show My Matches."
+Collect Data: Capture all the user's selections from the form.
+Query & Filter: Use the selections to query our existing therapist database.
+Filtering Logic:
+Hard Filters (Must Match): Use the answers from Step 1 (Basics) as hard filters. Therapists who do not offer the selected Session Type, Availability, should be excluded from the results.
+Soft Filters (Sorting & Ranking): Use the answers from Step 2, 3, and 4 to rank the remaining therapists. Therapists who match more of these preferences (e.g., specialize in "Anxiety," have a "Skills-based" approach, and match the "Gender Preference") should be displayed first.
+Display Results:
+Redirect the user to our main therapist directory/results page (e.g., [your-website-url.com]/therapists).
+The page must be pre-filtered and pre-sorted based on the logic above.
+The results page should clearly state "Showing the best matches for you" or similar, and ideally, show which filters are active.
+Zero Results: If the "Hard Filters" result in 0 matches, please display a friendly message (e.g., "No therapists matched all your practical needs. Try broadening your search by removing a filter, like 'Availability' or 'Insurance.'") instead of just showing an empty page.
+

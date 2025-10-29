@@ -1,0 +1,77 @@
+To integrate a new multi-step "Therapist Matching" questionnaire into our existing website, after click on the start matching button in the Therapists webpage in the premium model. This form will act as the primary intake and filtering tool to help users find the most suitable therapists from our database.
+1. Key Integration & Styling Requirements
+Styling & Branding: The new questionnaire page must seamlessly match the existing website's visual identity. This includes using the existing CSS stylesheets, fonts, color palette, button styles, layout, and a mobile-responsive design.
+Header/Footer: The new page must use the website's existing global header and footer.
+Navigation & Location:
+Please create a new dedicated page after clicking on the Start matching button for this questionnaire 
+The primary Start Matching button/link on the Therapist section should now point to this new questionnaire page.
+
+2. Frontend: Questionnaire Page
+Please build a single-page questionnaire, breaking the questions into the following steps.
+Step 1: The Basics (Practical Needs)
+(This section is for the non-negotiables.)
+How would you like to attend sessions?
+[ ] In-person (near me)
+[ ] Virtual (video/phone)
+[ ] I'm open to either
+When are you available for sessions?
+(Select all that apply)
+[ ] Mornings
+[ ] Afternoons
+[ ] Evenings
+[ ] Flexible
+
+Step 2: What's on your mind? (Areas of Focus)
+(This helps us understand what you'd like to work on.)
+What brings you to therapy?
+(Select all that apply)
+[ ] Anxiety or panic attacks
+[ ] Depression or sadness
+[ ] Relationship issues
+[ ] Work / School stress
+[ ] Family conflicts
+[ ] Trauma or PTSD
+[ ] Grief or loss
+[ ] Addiction or substance use
+[ ] Identity (Gender, sexual, or cultural)
+[ ] Life transitions (e.g., new job, moving, baby)
+[ ] I'm just not feeling like myself
+[ ] I'm not sure, I just need to talk
+Have you been in therapy before?
+[ ] Yes, it was a helpful experience
+[ ] Yes, it was not a good experience
+[ ] No, this is my first time
+
+Step 3: Your Therapy Style (Your Vibe)
+(This helps us match you with a therapist's approach.)
+I would prefer a therapist who...
+[ ] Listens and guides me to explore my feelings and past.
+[ ] Teaches me concrete skills, strategies, and (sometimes) homework.
+[ ] A balance of both.
+I want to focus on...
+[ ] Solving my current problems and learning new coping skills.
+[ ] Understanding my past to see how it affects my present.
+[ ] I'm not sure, I'd like my therapist to help me decide.
+
+Step 4: Therapist Preferences (Your Match)
+(This is about who you feel most comfortable with. It's 100% optional.)
+Do you have a preference for your therapist's gender?
+[ ] I prefer a male therapist
+[ ] I prefer a female therapist
+[ ] No preference
+
+Submission Button
+A clear, single "Show My Matches" button at the end of the form.
+
+3. Backend & Functional Logic (Critical)
+This is the most important part: what happens when the user clicks "Show My Matches."
+Collect Data: Capture all the user's selections from the form.
+Query & Filter: Use the selections to query our existing therapist database.
+Filtering Logic:
+Hard Filters (Must Match): Use the answers from Step 1 (Basics) as hard filters. Therapists who do not offer the selected Session Type, Availability, should be excluded from the results.
+Soft Filters (Sorting & Ranking): Use the answers from Step 2, 3, and 4 to rank the remaining therapists. Therapists who match more of these preferences (e.g., specialize in "Anxiety," have a "Skills-based" approach, and match the "Gender Preference") should be displayed first.
+Display Results:
+Redirect the user to our main therapist directory/results page (e.g., [your-website-url.com]/therapists).
+The page must be pre-filtered and pre-sorted based on the logic above.
+The results page should clearly state "Showing the best matches for you" or similar, and ideally, show which filters are active.
+Zero Results: If the "Hard Filters" result in 0 matches, please display a friendly message (e.g., "No therapists matched all your practical needs. Try broadening your search by removing a filter, like 'Availability' or 'Insurance.'") instead of just showing an empty page.

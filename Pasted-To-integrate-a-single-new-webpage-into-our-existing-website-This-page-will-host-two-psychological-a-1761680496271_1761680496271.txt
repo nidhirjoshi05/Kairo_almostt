@@ -1,0 +1,86 @@
+To integrate a single new webpage into our existing website. This page will host two psychological assessments: the PANAS Questionnaire and the Emotional Intelligence Scale (EIS-HPD). The page must include aesthetic descriptions of each test and implement a freemium model.
+Freemium Model Logic:
+All users (Freemium & Pro) can take both tests.
+PANAS Test: Results are free and shown to all users.
+EIS-HPD (EQ Test): Results are gated.
+Freemium users will see an "Upgrade to Pro" call-to-action instead of their results.
+Pro users will see their full, detailed, graphical results.
+1. Key Integration & Styling Requirements
+Styling & Branding: The new page must seamlessly match the existing website's visual identity. This includes using the existing CSS stylesheets, fonts, color palette, button styles, layout, and a mobile-responsive design.
+Header/Footer: The new page must use the website's existing global header and footer.
+Navigation: Please add the entry point for this new feature on in the navigation bar, and name it Assessments
+URL Structure: Please create the new page at the following URL: [your-website-url.com]/assessments (or suggest a more logical path for our existing site).
+2. New Page Layout (.../assessments)
+This single page should be designed in a clean, aesthetic way, with two distinct sections or "cards," one for each test. Each section will contain:
+A description of the test.
+The full questionnaire.
+Section 1: PANAS Questionnaire (Freemium)
+Aesthetic Description:
+Title: Check Your Current Mood: The PANAS Scale
+Text: How are you feeling, right now? The PANAS Questionnaire is a widely used 20-item scale that measures your current emotional state1. It provides a score for Positive Affect (the extent to which you feel enthusiastic, active, and alert) and Negative Affect (the extent to which you feel aversive states like distress, anger, or fear)22. Take this quick test to get an instant snapshot of your present-moment feelings3.
+Test Interface:
+Instructions: "Indicate to what extent you feel this way right now (at the present moment), using the scale below." 4
+Rating Scale: 5-point radio buttons: 1 - Very Slightly or Not at All, 2 - A Little, 3 - Moderately, 4 - Quite a Bit, 5 - Extremely 5.
+Test Items: The 20 PANAS items (Interested, Distressed, Excited, etc.)6.
+Section 2: Emotional Intelligence Scale (Premium)
+Aesthetic Description:
+Title: Discover Your Emotional Intelligence: The EIS-HPD Scale
+Text: Emotional Intelligence (EQ) is the ability to understand and manage your own emotions, and to recognize and influence the emotions of others. This 34-item assessment 7measures your overall Emotional Intelligence and breaks it down into 10 key factors, including Self-Awareness, Empathy, Self-Motivation, and Managing Relations8888. Understand your strengths and opportunities for growth.
+(Note: Results for this test are a Pro feature.)
+Test Interface:
+Instructions: "Here some statements are given and for every statement you have to express your views by making a tick on any one cell of the five alternatives." 9
+Rating Scale: 5-point radio buttons: Strongly Agree, Agree, Uncertain, Disagree, Strongly Disagree10.
+Test Items: The 34 EIS-HPD items (I can encourage others..., People tell me I am an inspiration..., etc.) 11.
+3. Submission & Conditional Results Logic
+Place a single "Submit & See Results" button at the bottom of the page.
+On submission, the page should process both tests and display the results dynamically on the same page(e.g., in accordions, modals, or new content blocks that appear), based on the user's plan.
+A. PANAS Results (Always Shown)
+This section should always appear for all users (Freemium and Pro).
+Display: Show the two scores clearly.
+Positive Affect Score: [User's PA Score] (out of 50)
+Negative Affect Score: [User's NA Score] (out of 50)
+Visuals: Include the graphical gauges/bars as specified in the Appendix.
+Interpretation: Include the interpretation text (see Appendix).
+B. EIS-HPD (EQ Test) Results (Conditional)
+This is the key logic. The backend must check the user's subscription status.
+IF User is on a "Free" / "Freemium" plan:
+DO NOT show the results.
+Instead, display an Upgrade Call-to-Action (CTA) block.
+Example Copy: "### You've completed the Emotional Intelligence test!
+To unlock your detailed results, including your overall EQ score, a 10-factor breakdown, and a personalized radar chart, please upgrade to our Pro plan."
+Include a prominent "Upgrade Now" button that links to our pricing/upgrade page.
+IF User is on a "Pro" / "Premium" plan:
+DO show the full, detailed results.
+Display: Show the "Overall Emotional Intelligence" score and interpretation (High/Normal/Low).
+Visuals: Include the "Overall Score" gauge, the Radar Chart for the 10 factors, and the detailed factor table (all specified in the Appendix).
+4. Appendix: Backend Scoring & Results Specifications
+(Use this for building the backend logic and the results display for Pro users)
+Test 1: PANAS Scoring & Results
+Positive Affect (PA) Score: Sum of items: 1, 3, 5, 9, 10, 12, 14, 16, 17, 1912.
+Negative Affect (NA) Score: Sum of items: 2, 4, 6, 7, 8, 11, 13, 15, 18, 2013.
+Results Visual:
+Two gauges/bars (one for PA, one for NA), styled to match our site.
+Show the user's score vs. the total (50).
+Mark the momentary mean score benchmarks: 29.7 for PA 14and 14.8 for NA15.
+Interpretation Text:
+"Your Positive Affect score ([User's PA Score]) measures... The average 'momentary' score is 29.7." 16
+"Your Negative Affect score ([User's NA Score]) measures... The average 'momentary' score is 14.8." 17
+Test 2: EIS-HPD Scoring & Results (For Pro Users)
+Value Mapping: Strongly Agree = 5, Agree = 4, Uncertain = 3, Disagree = 2, Strongly Disagree = 118.
+Total Score: Sum of all 34 items.
+Interpretation: High (85 and above), Normal (52-84), Low (51 and below)19.
+Factor Scores:
+A. Self-awareness: Sum of 6, 12, 18, 2920.
+B. Empathy: Sum of 9, 10, 15, 20, 2521.
+C. Self-motivation: Sum of 2, 4, 7, 8, 31, 3422.
+D. Emotional stability: Sum of 14, 19, 26, 2823.
+E. Managing relations: Sum of 1, 5, 11, 1724.
+F. Integrity: Sum of 16, 27, 3225.
+G. Self-development: Sum of 30, 3326.
+H. Value orientation: Sum of 21, 2227
+I. Commitment: Sum of 23, 2428.
+J. Altruistic behaviour: Sum of 3, 1329.
+Results Visuals (Pro Only):
+Overall Score Gauge: A segmented bar/gauge showing the user's Total Score on the Low (0-51) / Normal (52-84) / High (85+) scale30.
+Radar Chart: A 10-axis radar chart (styled to match our site) plotting "Your Score" for each factor (A-J) against the "High Level Benchmark" (the "High and above" value for each factor from Table 5)31.
+Detailed Factor Table: A table (styled like our site's tables) showing the user's score and interpretation (Low/Normal/High) for all 10 factors, based on the norms in Table 532.

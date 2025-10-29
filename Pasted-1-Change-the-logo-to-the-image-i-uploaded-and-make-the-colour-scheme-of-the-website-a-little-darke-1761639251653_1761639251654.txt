@@ -1,0 +1,25 @@
+1. Change the logo to the image i uploaded, and make the colour scheme of the website a little darker. 
+2. Change the button colour on the landing page, under the landing page, give an about us part to talk about our organisation( mission, vision, understanding mental health, Signs you need help)
+3. The Dual option page, where i select between get started with pro or free, that page should have animation of the two sides moving when i hover over them
+4. Make the spacing between the Back button and the image proper on the Dual option page
+5. Add a login page after user click on the get started button, with questions like, Name, Email and password thats it. also give option for Sign up
+6. on the home page in freemium model, give a short summary boxes like Days Active, Number of journal entries/redirection to journal web page, Make the eq test longer and where it gives accurate results, once the test is given once they shouldnt be allowed to give it again, make it 15 questions long.
+7. In the Journal web page on the freemium model, add a block below journal entry, for the prevoius entries.
+8. From the Vent Room in the Freemium model, remove the 5 messages per day tag
+9. for the Circles webpage, give more circle option, but let them join only one in a month, increase the number of participants shown in the groups.
+10. In the Therapists web page on the freemium model, change the name from Therapists to Paid Consultations, show an option to take first free session with a therapist, and show a few small features of the premium model in this web page, give a tab that says Professional Therapists
+Connect with licensed mental health professionals. Choose your own therapist and schedule sessions at your convenience, for the therapist cards add name, speciality, rating, number of reviews as well, a small sentence for the therapist about, year of experience, also move this web page to be the last web page on the freemium model.
+11.  Bring the Crisis web page before the paid consultations, also in the crisis web page a description about what crisis section is for, and also give a option to find the nearest rehab centers, hospitals, and NGOs
+12. Add a profile option instead of log out, where it gives options of Profile, Settings and Log out, in the profile sections it should show the users personal dashboard with updates from Circle joined, personal updates and information. 
+13. Now in the premium model, add track mood web page after the journal web page, it should have an option to log your mood with options like great good okay low bad, and let user add a note (Whats contributing to this mood), also give a recent mood histories entries block
+14. In the Journal web page in the Premium Model, give writing prompts to the user which will help them journal their thoughts much better, also add sections showing previous entries..
+15. In the Therapists web page on the premium model, show an option to get matched with a therapist where the user has to file out a questionnaire and accordingly therapists will be shown, in the therapist cards show the therapist availability too, allow user to book a session where they input the date, time, etc
+16. In the premium model for the Circle web page, give an option to user where they can join multiple circles.
+17. In the premium model, instead of the log out option give profile option, where it has profile , settings and log out. In the profile section, create a personal dashboard, where it gives reminder, notifications for circles and therapy sessions, a short summary of mood entries and journaling and prompt user to update it,  add wellness tips for the user too. 
+18. Make the crisis support page in the premium model just like the freemium model, also add a part which notifies the therapist about any crisis situation.
+19. In the Home Page add a sections giving reminders and notifications about the sessions and circles, like give countdown 2 days left for session, circle session today, upcoming sessions, etc.
+20. When i click on reminders, it should open in calendar format.
+21. In the entire website add the footer sections with necessary details, redirection links, social media, get support(website support etc). 
+
+
+

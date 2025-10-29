@@ -1,0 +1,153 @@
+Build a modern, accessible, and emotionally calm web application for Kairo — a mental health and emotional wellness platform with Freemium and Pro plans, themed around trust, care, and psychological wellbeing.
+
+Design Language & Style:
+
+Use React + TypeScript + Vite (as per my current files).
+
+TailwindCSS for all styling and utility classes.
+
+Framer Motion for subtle transitions and animations.
+
+Maintain the existing Kairo color scheme from my CSS:
+
+Primary #3674B5
+
+Secondary #578FCA
+
+Accent #A1E3F9
+
+Light #D1F8EF
+
+Background #FFFFFF, Foreground #1A1A1A
+
+Soft gradients: from-blue-600 via-purple-600 to-pink-600 for highlights.
+
+Layout tone: gentle gradients, rounded corners, soft shadows, calm visuals suitable for therapy and wellness.
+
+Must stay consistent with my existing component files (MainApp, PremiumApp, PeerGroup, TherapistMatching, etc.).
+
+Page Flow:
+
+1️⃣ Landing Page (Home)
+
+Clean hero section with the Kairo logo and tagline:
+“Find Calm, Anytime, Anywhere”
+Subtitle: “Your personal companion for emotional wellness and mental health support.”
+
+“Begin Your Journey” button centered below the tagline.
+
+Background: smooth gradient using #3674B5 → #A1E3F9 → #D1F8EF.
+
+Animation: soft fade-in for hero text.
+
+Button action → routes to the dual-option page.
+
+2️⃣ Dual-Option Page (After clicking “Begin Your Journey”)
+
+Split screen layout:
+Left panel:
+
+Text: “Regular consultations with experts of your choice.”
+
+Subtext: short supportive line (e.g. “Professional help, scheduled your way.”)
+
+“Get Started” button → routes to Pro Plan (PremiumApp).
+
+Optional illustration of therapist sessions (two people in video call).
+
+Right panel:
+
+Text: “Free All-India Emergency Mental Health Helpline.”
+
+Subtext: “Immediate help for anyone in need.”
+
+“Get Started” button → routes to Free Plan (MainApp).
+
+Illustration of a smiling counselor on laptop.
+
+Use soft beige-pink and light-blue gradient backgrounds to divide both sides.
+
+Keep it responsive and accessible (mobile-first, collapses into stacked layout).
+
+Functional Requirements:
+
+Free Plan (MainApp)
+
+Implements:
+
+One-time EQ self-assessment + summary.
+
+Basic journaling with simple prompts.
+
+Access to AI Vent Room (limit 5 messages/day).
+
+Basic dashboard with a daily tip.
+
+View mentor profiles only (cannot choose therapist).
+
+First session is free, therapist assigned randomly.
+
+Join 1 Healing Circle/month (already implemented in PeerGroup).
+
+Access helplines + basic AI crisis chat.
+
+Pro Plan (PremiumApp)
+
+Implements:
+
+Repeatable EQ tests + tracked progress.
+
+Full mood history and pattern insights.
+
+Unlimited AI Consoling Agent.
+
+Personalized dashboard with routines/challenges.
+
+Message + schedule sessions with mentors.
+
+Access full EQ activities library.
+
+Unlimited Healing Circles + premium community.
+
+Priority AI support + discounted live counselor sessions.
+
+Reward streaks for consistency (badges, unlockables).
+
+Monthly EQ & mood report with insights.
+
+Technical Details:
+
+Use React Router to manage page transitions (/, /get-started, /free, /pro).
+
+Use localStorage for temporary persistence of plan state and user data (EQ results, journal entries, peer group history).
+
+Import existing components where applicable:
+
+Navbar, KairoLogo, PeerGroup, PremiumPeerGroup, ProfessionalCare, Profile, TherapistMatching, WhatsAppHelpline.
+
+Implement a PlanContext (global state) to determine if user is on Free or Pro.
+
+Animate transitions between pages with Framer Motion (opacity, y transitions).
+
+Deliverables:
+
+Full React + Vite project structure.
+
+Pages:
+
+/ – Landing
+
+/get-started – Dual option page
+
+/free – MainApp (Freemium features)
+
+/pro – PremiumApp (Pro features)
+
+Maintain consistent branding, colors, typography, and UX tone.
+
+All buttons functional (navigate or toggle plan context).
+
+Responsive and visually consistent across 768px–1518px resolutions.
+
+Tone & Experience:
+Kairo should feel like a digital sanctuary — calm gradients, empathetic microcopy, and intuitive navigation. The user should feel they’re stepping into a safe, intelligent, and compassionate environment.
